@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "js-sha512": "^0.8.0",
+    "knex": "^0.95.1",
+    "nodemon": "^2.0.7",
+    "sqlite3": "^5.0.2"
+  },
+  "type": "module"
+}
